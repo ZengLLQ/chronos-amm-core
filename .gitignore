@@ -1,0 +1,27 @@
+# Foundry
+out/
+cache/
+broadcast/
+
+# Environment and sensitive keys
+.env
+.env.*
+*.key
+*.pem
+*.secret
+*.keystore
+
+# Node & package managers
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
